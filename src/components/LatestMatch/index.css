@@ -1,0 +1,49 @@
+.latestmatchcomplog {
+  width: 120px;
+  height: 100px;
+}
+.latestcontouter {
+  width: 100%;
+  background-color: #1e293b;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 20px;
+  padding: 20px;
+  font-size: 10px;
+  margin-bottom: 20px;
+}
+.cont-1 {
+  font-size: 12px;
+}
+.hrline {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .latestcontouter {
+    flex-direction: column;
+  }
+  .hrlinecont {
+    width: 100%;
+  }
+  .hrline {
+    display: block;
+    width: 100%;
+    border: 1px #ffffff solid;
+  }
+  .latestmatchcomplog {
+    display: none;
+  }
+  .cont-1{
+    width: 100%;
+    font-size: 10px;
+    text-align: left;
+  }
+  .cont-2{
+    width: 100%;
+    font-size: 10px;
+    text-align: left;
+  }
+}

@@ -1,0 +1,50 @@
+/* Write your CSS here */
+.TeamCardlogo {
+  height: 80px;
+  width: 80px;
+  margin: 20px;
+}
+.lstitmcont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  width: 400px;
+  height: 150px;
+  border: 2px #ffffff solid;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255, 0.2);
+}
+.lstitmpara {
+  width: 300px;
+}
+@media (max-width: 1199px) {
+  .lstitmcont {
+    width: 250px;
+    height: 150px;
+    margin: 10px;
+  }
+  .lstitmpara {
+    width: 80%;
+    word-break: keep-all;
+  }
+}
+
+@media (max-width: 767px) {
+  .lstitmcont {
+    width: 150px;
+    height: 90px;
+    margin: 5px;
+    font-size: 10px;
+  }
+  .TeamCardlogo {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+  }
+}
